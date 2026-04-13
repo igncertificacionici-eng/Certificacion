@@ -14,7 +14,7 @@ document.getElementById("btnEnviar").addEventListener("click", async () => {
   formData.append("archivo", archivo);
 
   try {
-    const response = await fetch("TU_URL_WEBAPP", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbzCOkTdnTfA4GIQvmjrzJ2OLRPFjVeiz5ECqEHd6kPXhmqHRQjdXP9tQ7M6rrcT5TZlFw/exec", {
       method: "POST",
       body: formData
     });
